@@ -1,0 +1,38 @@
+html {
+  background-color: #EEE;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.fadeIn {
+  opacity: 0;
+}
+
+#loginButtons {
+  text-align: center;
+}
+
+.profileButton {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 1em;
+  padding: .5em 1em;
+  outline: none;
+  border-radius: 2em;
+  border-width: .125em;
+  background-color: inherit;
+  border-color: #333;
+}
+
+.profileButton:hover {
+  background-color: #DDD;
+}
+
+.profileButton:active {
+  background-color: #BBB;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Chat</title>
+  </head>
+  <body>
+    <h1 class="fadeIn">Profiles</h1>
+    <a href="home.html">Home</a>
+    <div class="fadeIn" id="loginButtons">
+      <span style="display:block;width:100%;"><button class="profileButton">New Profile</button></span>
+      <br>
+      <span style="display:block;width:100%;"><button class="profileButton">Existing Profile</button></span>
+    </div>
+    <script>window.$ = window.jQuery = require('./jquery-2.2.0.min.js');</script>
+    <script>
+      $(function() {
+        $(".fadeIn").fadeTo("slow", 1.0);
+      });
+    </script>
+  </body>
+</html>

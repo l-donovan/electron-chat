@@ -1,0 +1,19 @@
+{
+  "chats": [
+    {
+      "id": 0,
+      "title": "Some Chat",
+      "image": "test.jpg"
+    },
+    {
+      "id": 1,
+      "title": "Smith",
+      "image": "test.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Jones",
+      "image": "test.jpg"
+    }
+  ]
+}
