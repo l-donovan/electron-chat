@@ -1,5 +1,5 @@
 html {
-  background-color: #EEE;
+  background: #EEE;
   font-family: sans-serif;
 }
 
@@ -25,12 +25,12 @@ h1 {
   outline: none;
   border-radius: 2em;
   border-width: .125em;
-  background-color: inherit;
+  background: inherit;
   border-color: #333;
 }
 
 .profileButton:hover {
-  background-color: #DDD;
+  background: #DDD;
 }
 
 body {
@@ -40,11 +40,11 @@ body {
 #leftSidebar {
   position: fixed;
   left: 0;
-  top: 0;
+  top: -1px;
   margin: 0;
   width: 25vw;
   height: 100vh;
-  background-color: #CCC;
+  background: #CCC;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -56,10 +56,10 @@ body {
   top: 0;
   width: 75vw;
   height: 100vh;
-  background-color: #B6D1FF;
+  background: #B6D1FF;
 }
 
-#chatTable {
+#chat-side-table {
   border-collapse: collapse;
   width: 100%;
 }
@@ -68,7 +68,7 @@ body {
   border-top: 1px solid #555;
   width: 100%;
   height: 10%;
-  background-color: #AAA;
+  background: #AAA;
 }
 
 .chat-side-image {
@@ -86,4 +86,30 @@ body {
 
 td {
   padding: 0;
+}
+
+#chat-active-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 10vh;
+  width: 75vw;
+  background: #3FCFFC;
+}
+
+#chat-active-header-text {
+  font-size: 1.5em;
+  line-height: 10vh;
+  text-align: left;
+  font-weight: lighter;
+}
+
+#chat-active-content {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 90vh;
+  width: 75vw;
+  overflow-y: scroll;
+  background: #EEE;
 }

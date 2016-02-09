@@ -6,15 +6,15 @@
     <title>Chat</title>
   </head>
   <body>
-    <div id="leftSidebar" class="fadeIn"><table id="chatTable"></table></div>
+    <div id="leftSidebar" class="fadeIn"><table id="chat-side-table"></table></div>
     <div id="mainPane" class="fadeIn">&nbsp;</div>
 
     <script>window.$ = window.jQuery = require('./jquery-2.2.0.min.js');</script>
     <script src="js/home.js"></script>
     <script>
       $(function() {
+        generateChatSidebar();
         $(".fadeIn").fadeTo("slow", 1.0);
-        for (i = 0; i < 25; i++) createChatElement(i % 3);
       });
     </script>
   </body>

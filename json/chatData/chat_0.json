@@ -1,0 +1,45 @@
+{
+  "chatMeta":{
+    "id":0,
+    "title":"Some Chat",
+    "image":"test.jpg",
+    "dateCreated":1454786774303,
+    "creator":"Person1"
+  },
+  "chatHistory":[
+    {
+      "content":{
+        "type":"text",
+        "data":"First!"
+      },
+      "when":1454786775303,
+      "who":"Person1",
+      "likes":[
+        "Person1",
+        "Person2"
+      ]
+    },
+    {
+      "content":{
+        "type":"text",
+        "data":"Slightly Longer Second Post!"
+      },
+      "when":1454786775303,
+      "who":"Person2",
+      "likes":[
+        "Person1"
+      ]
+    },
+    {
+      "content":{
+        "type":"text",
+        "data":"This is quite a long third post! It is long in order to determine how different clients handle multiline messages!"
+      },
+      "when":1454786775303,
+      "who":"Person1",
+      "likes":[
+
+      ]
+    }
+  ]
+}
