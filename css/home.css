@@ -37,7 +37,7 @@ body {
   margin: 0;
 }
 
-#leftSidebar {
+#pane-sidebar {
   position: fixed;
   left: 0;
   top: -1px;
@@ -45,11 +45,10 @@ body {
   width: 25vw;
   height: 100vh;
   background: #CCC;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
-#mainPane {
+#pane-main {
   margin: 0;
   position: fixed;
   right: 0;
@@ -74,7 +73,7 @@ body {
 .chat-side-image {
   vertical-align: middle;
   border-radius: 50%;
-  height: 20%;
+  height: 9vh;
   padding: .5em;
 }
 
@@ -102,6 +101,7 @@ td {
   line-height: 10vh;
   text-align: left;
   font-weight: lighter;
+  padding-left: 1vw;
 }
 
 #chat-active-content {
@@ -110,6 +110,21 @@ td {
   right: 0;
   height: 90vh;
   width: 75vw;
-  overflow-y: scroll;
+  overflow: hidden;
   background: #EEE;
+}
+
+.chat-active-content-item-image {
+  vertical-align: middle;
+  border-radius: 50%;
+  height: 5vh;
+  padding: .5em;
+}
+
+.chat-active-content-item-content {
+
+}
+
+.chat-active-content-item-like {
+
 }
